@@ -17,41 +17,429 @@ Textbooks
 
 \[L\] = Lindgren, B. _Statistical Theory_. 4th ed. New York, NY: Chapman and Hall, 1993. ISBN: 9780412041815.
 
-| SES # | TOPICS | READINGS |
-| --- | --- | --- |
-| {{< td-colspan 3 >}} {{< br >}}{{< br >}} **Probability distributions and random variables** {{< br >}}{{< br >}} {{< /td-colspan >}} |||
-| {{< td-colspan 3 >}}**I. Probability**{{< /td-colspan >}} |||
-| 1 | Sets and events |  {{< br >}}{{< br >}} \[LM\] sections 1.1-1.3 and 2.1-2.7. {{< br >}}{{< br >}} \[DS\] sections 1.1-1.11 and 2.1-2.2. {{< br >}}{{< br >}} \[L\] sections 1.1-1.3. {{< br >}}{{< br >}}  |
-| 2 | Probabilities and counting rules |
-| 3 | Conditional probability and independence |
-| {{< td-colspan 3 >}}**II. Random variables and distribution functions**{{< /td-colspan >}} |||
-| 4 | Bayes theorem and random variables |  {{< br >}}{{< br >}} \[LM\] sections 3.1-3.4 and 3.7. {{< br >}}{{< br >}} \[DS\] sections 3.1-3.4 and 3.7. {{< br >}}{{< br >}} \[L\] section 2.1. {{< br >}}{{< br >}}  |
-| 5 | Discrete and continuous random variables |
-| 6 | Probability distribution functions (PDFs), cumulative distribution functions (CDFs), joint distribution of 2 or more random variables |
-| 7 | Joint and marginal distributions |
-| 8 | Review | &nbsp; |
-| {{< td-colspan 3 >}} {{< br >}}{{< br >}} **Expectations and transformations of random variables** {{< br >}}{{< br >}} {{< /td-colspan >}} |||
-| {{< td-colspan 3 >}}**III. Transformations of random variables**{{< /td-colspan >}} |||
-| 9 | Functions of random variables |  {{< br >}}{{< br >}} \[LM\] sections 3.8-3.10. {{< br >}}{{< br >}} \[DS\] sections 3.8-3.9. {{< br >}}{{< br >}} \[L\] section 2.1.6. {{< br >}}{{< br >}}  |
-| 10 | Functions of several random variables |
-| {{< td-colspan 3 >}}**IV. Expectations and conditional distributions**{{< /td-colspan >}} |||
-| 11 | Order statistics and expectations |  {{< br >}}{{< br >}} \[LM\] sections 3.5-3.6 and 3.11. {{< br >}}{{< br >}} \[DS\] sections 3.6 and 4.1-4.7. {{< br >}}{{< br >}} \[L\] sections 2.1.8 and 2.2. {{< br >}}{{< br >}}  |
-| 12 | Median, quantiles, and variance |
-| 13 | Covariance and conditional expectations |
-| {{< td-colspan 3 >}}**V. Special distributions**{{< /td-colspan >}} |||
-| 14 | Conditional expectations and special distributions |  {{< br >}}{{< br >}} \[LM\] chapter 4. {{< br >}}{{< br >}} \[DS\] chapter 5, except 5.7-5.8. {{< br >}}{{< br >}} \[L\] chapter 3. {{< br >}}{{< br >}}  |
-| {{< td-colspan 3 >}}**VI. Law of large numbers and central limit theorems**{{< /td-colspan >}} |||
-| 15 | Law of large numbers |  {{< br >}}{{< br >}} \[LM\] section 4.3. {{< br >}}{{< br >}} \[DS\] section 5.7. {{< br >}}{{< br >}} \[L\] section 2.5. {{< br >}}{{< br >}}  |
-| 16 | Review | &nbsp; |
-| {{< td-colspan 3 >}} {{< br >}}{{< br >}} **Estimation and hypothesis tests** {{< br >}}{{< br >}} {{< /td-colspan >}} |||
-| {{< td-colspan 3 >}}**VII. Estimation methods and properties**{{< /td-colspan >}} |||
-| 17 | Central limit theorem, estimators, bias, and consistency |  {{< br >}}{{< br >}} \[LM\] sections 5.1-5.5 and 5.7. {{< br >}}{{< br >}} \[DS\] sections 6.1 and 6.5-6.7. {{< br >}}{{< br >}} \[L\] sections 5.1-5.2. {{< br >}}{{< br >}}  |
-| 18 | Constructing estimators |
-| {{< td-colspan 3 >}}**VIII. Confidence intervals**{{< /td-colspan >}} |||
-| 19 | Confidence intervals |  {{< br >}}{{< br >}} \[LM\] section 5.3. {{< br >}}{{< br >}} \[DS\] section 7.5. {{< br >}}{{< br >}} \[L\] section 5.3. {{< br >}}{{< br >}}  |
-| 20 | Confidence intervals (cont.) |
-| {{< td-colspan 3 >}}**IX. Hypothesis testing**{{< /td-colspan >}} |||
-| 21 | Hypothesis tests |  {{< br >}}{{< br >}} \[LM\] sections 6.1-6.5, 7.1-7.5, and 9.1-9.4. {{< br >}}{{< br >}} \[DS\] chapter 8. {{< br >}}{{< br >}} \[L\] sections 6.1-6.2. {{< br >}}{{< br >}}  |
-| 22 | Hypothesis tests (cont.) |
-| 23 | Hypothesis tests (cont.) |
-| 24 | Review |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+
+
+**Probability distributions and random variables**
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**I. Probability**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Sets and events
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] sections 1.1-1.3 and 2.1-2.7.
+
+\[DS\] sections 1.1-1.11 and 2.1-2.2.
+
+\[L\] sections 1.1-1.3.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Probabilities and counting rules
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Conditional probability and independence
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**II. Random variables and distribution functions**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Bayes theorem and random variables
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] sections 3.1-3.4 and 3.7.
+
+\[DS\] sections 3.1-3.4 and 3.7.
+
+\[L\] section 2.1.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete and continuous random variables
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Probability distribution functions (PDFs), cumulative distribution functions (CDFs), joint distribution of 2 or more random variables
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Joint and marginal distributions
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+
+
+**Expectations and transformations of random variables**
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**III. Transformations of random variables**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Functions of random variables
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] sections 3.8-3.10.
+
+\[DS\] sections 3.8-3.9.
+
+\[L\] section 2.1.6.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Functions of several random variables
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**IV. Expectations and conditional distributions**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Order statistics and expectations
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] sections 3.5-3.6 and 3.11.
+
+\[DS\] sections 3.6 and 4.1-4.7.
+
+\[L\] sections 2.1.8 and 2.2.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Median, quantiles, and variance
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Covariance and conditional expectations
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**V. Special distributions**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Conditional expectations and special distributions
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] chapter 4.
+
+\[DS\] chapter 5, except 5.7-5.8.
+
+\[L\] chapter 3.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**VI. Law of large numbers and central limit theorems**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Law of large numbers
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] section 4.3.
+
+\[DS\] section 5.7.
+
+\[L\] section 2.5.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+
+
+**Estimation and hypothesis tests**
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**VII. Estimation methods and properties**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Central limit theorem, estimators, bias, and consistency
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] sections 5.1-5.5 and 5.7.
+
+\[DS\] sections 6.1 and 6.5-6.7.
+
+\[L\] sections 5.1-5.2.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Constructing estimators
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**VIII. Confidence intervals**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Confidence intervals
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] section 5.3.
+
+\[DS\] section 7.5.
+
+\[L\] section 5.3.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Confidence intervals (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**IX. Hypothesis testing**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Hypothesis tests
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[LM\] sections 6.1-6.5, 7.1-7.5, and 9.1-9.4.
+
+\[DS\] chapter 8.
+
+\[L\] sections 6.1-6.2.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Hypothesis tests (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Hypothesis tests (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
